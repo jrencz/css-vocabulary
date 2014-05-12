@@ -90,7 +90,7 @@
             </dl>
           </div>
         </div>
-        <div class="statement at-rule rule-set media-query"><span class="identifier">media</span>
+        <div class="statement at-rule rule-set conditional-group-rule media-query"><span class="identifier">media</span>
           <span class="media-query-list">
             <span class="keyword">only</span>
             <span class="media-type">screen</span>
@@ -103,6 +103,31 @@
               <div class="block declaration-block">
                 <dl class="declaration">
                   <dt class="property">width</dt><dd class="value"><span class="percentage"><span class="number">50</span>%</span></dd></dl>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="statement at-rule rule-set conditional-group-rule supports-rule"><span class="identifier">supports</span>
+          <span class="supports-condition">
+            <span class="keyword">not</span>
+            <span class="expression">
+              <span class="expression">
+                <span class="support-feature">display</span> <span class="value"><span class="keyword">flex</span></span>
+              </span>
+              <span class="keyword">and</span>
+              <span class="expression">
+                <span class="support-feature">flex-wrap</span> <span class="value"><span class="keyword">wrap-reverse</span></span>
+              </span>
+            </span>
+          </span>
+          <div class="block">
+            <div class="statement rule-set">
+              <h2 class="selector"><span class="simple-selector id-selector">#content</span></h2>
+              <div class="block declaration-block">
+                <dl class="declaration">
+                  <dt class="property">width</dt>
+                  <dd class="value"><span class="percentage"><span class="number">90</span>%</span></dd>
+                </dl>
               </div>
             </div>
           </div>

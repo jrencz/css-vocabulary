@@ -16,6 +16,11 @@ $(document).ready(function() {
       'url': ''
     },
     {
+      'tokenName': 'conditional-group-rule',
+      'humanName': 'Conditional group rule',
+      'url': ''
+    },
+    {
       'tokenName': 'at-rule',
       'humanName': 'At-rule',
       'url': ''
@@ -37,6 +42,16 @@ $(document).ready(function() {
       'url': ''
     },
     {
+      'tokenName': 'supports-rule',
+      'humanName': 'Supports rule',
+      'url': ''
+    },
+    {
+      'tokenName': 'supports-condition',
+      'humanName': 'Supports condition',
+      'url': ''
+    },
+    {
       'tokenName': 'expression',
       'humanName': 'Expression',
       'url': ''
@@ -44,6 +59,11 @@ $(document).ready(function() {
     {
       'tokenName': 'media-feature',
       'humanName': 'Media feature',
+      'url': ''
+    },
+    {
+      'tokenName': 'support-feature',
+      'humanName': 'Support feature',
       'url': ''
     },
     {

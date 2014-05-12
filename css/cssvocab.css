@@ -255,17 +255,21 @@ button:focus {
 .css .import::after {
 	content: ";";
 }
-.css .media-query .expression::before {
+.css .media-query .expression::before,
+.css .supports-rule .expression::before {
 	content: '(';
 }
-.css .media-query .expression::after {
+.css .media-query .expression::after,
+.css .supports-rule .expression::after {
 	content: ')';
 }
-.css .media-feature {
+.css .media-feature,
+.css .support-feature {
 	position: relative;
 	margin-right: .5rem;
 }
-.css .media-feature::after {
+.css .media-feature::after,
+.css .support-feature::after {
 	display: block;
 	position: absolute;
 	right: -.5em;
